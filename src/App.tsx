@@ -15,6 +15,8 @@ function App() {
         </div>
       )}
       <Intro></Intro>
+      <hr></hr>
+      
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { propTypes } from "react-bootstrap/esm/Image";
+import "./News.css"
 
 type news = {
   content: string;
@@ -52,7 +52,7 @@ function NewsItem(props: news) {
     <div>
       {props.link ? (
         <p>
-          <a href={props.link}>{`${formatDate(props.date)}  :  ${
+          <a className="news-link" href={props.link}>{`${formatDate(props.date)}  :  ${
             props.content
           }`}</a>
         </p>

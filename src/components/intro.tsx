@@ -9,9 +9,10 @@ function Intro() {
       <h1>Li Fengyu</h1>
       <p>
         I'm a first-year undergraduate student at Cornell University and will
-        graduate at around May 2025. This semester you can find me at the first
-        row in the lectures of CS 4780 Intro to ML. I'm strongly interested in
-        machine learning systems and computer vision. I'm actively looking for
+        graduate at around May 2025. I'm studying computer science and
+        mathematics. This semester you can find me at the first row in the
+        lectures of CS 4780 Intro to ML. I'm strongly interested in machine
+        learning systems and computer vision and I'm actively looking for
         research opportunities in these fields.
       </p>
       <p>

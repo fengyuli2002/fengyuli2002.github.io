@@ -1,6 +1,9 @@
+import { propTypes } from "react-bootstrap/esm/Image";
+
 type news = {
   content: string;
   date: Date;
+  link?: string;
 };
 
 const content: news[] = [
@@ -9,8 +12,10 @@ const content: news[] = [
     date: newDate(2021, 8),
   },
   {
-    content: "I joined Cornell Design & Tech Initiative and started building full-stack web projects.",
+    content:
+      "I joined Cornell Design & Tech Initiative and started building full-stack web projects.",
     date: newDate(2021, 10),
+    link: "https://www.cornelldti.org/",
   },
   {
     content: "I declared my CS major.",
@@ -45,7 +50,15 @@ function NewsItem(props: news) {
 
   return (
     <div>
-      <p>{`${formatDate(props.date)}  :  ${props.content}`}</p>
+      {props.link ? (
+        <p>
+          <a href={props.link}>{`${formatDate(props.date)}  :  ${
+            props.content
+          }`}</a>
+        </p>
+      ) : (
+        <p>{`${formatDate(props.date)}  :  ${props.content}`}</p>
+      )}
     </div>
   );
 }
@@ -64,7 +77,11 @@ function News() {
       <ul>
         {sorted_content.map((item) => (
           <li>
-            <NewsItem content={item.content} date={item.date}></NewsItem>
+            <NewsItem
+              content={item.content}
+              date={item.date}
+              link={item.link}
+            ></NewsItem>
           </li>
         ))}
       </ul>

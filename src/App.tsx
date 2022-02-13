@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Intro from "./components/intro";
+import News from "./components/News";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
@@ -16,7 +17,7 @@ function App() {
       )}
       <Intro></Intro>
       <hr></hr>
-      
+      <News></News>
     </div>
   );
 }

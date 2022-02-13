@@ -6,7 +6,7 @@ import "./intro.css";
 function Intro() {
   return (
     <div>
-      <p>Li Fengyu</p>
+      <h1>Li Fengyu</h1>
       <p>I am a first-year computer science student at Cornell University.</p>
       <Breadcrumb>
         <Breadcrumb.Item href="mailto:fl334@cornell.edu">

@@ -23,7 +23,7 @@ function Intro() {
       <p>
         <i>
           My office hours for CS 2110 is every Monday from 16:30 to 18:30 at
-          Rhodes 405
+          Rhodes 405.
         </i>
       </p>
 

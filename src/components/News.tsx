@@ -21,6 +21,10 @@ const content: news[] = [
     content: "I declared my CS major.",
     date: newDate(2022, 1),
   },
+  {
+    content: "I completed my first Kaggle competition.",
+    date: newDate(2022, 1),
+  }
 ];
 
 function newDate(year: number, month: number) {
@@ -69,7 +73,7 @@ function News() {
       return a.date.getTime() - b.date.getTime();
     })
     .reverse()
-    .slice(0, 5);
+    .slice(0, 7);
 
   return (
     <div>

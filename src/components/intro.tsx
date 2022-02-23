@@ -14,10 +14,11 @@ function Intro() {
           </h1>
           <p>
             I'm a first-year undergraduate student at Cornell University
-            majoring in computer science and mathematics. This semester you can
-            find me at the first row in the lectures of CS 4780 Intro to ML. I'm
-            strongly interested in machine learning systems and deep learning.
-            I'm actively looking for research opportunities in these fields.
+            majoring in computer science and mathematics. My current semester
+            coursework includes machine learning, analysis of algorithms,
+            probability models, and functional programming. I'm strongly
+            interested in machine learning systems and deep learning. I'm
+            actively looking for research opportunities in these fields.
           </p>
           <p>
             In my spare time, I build softwares on various tech stacks in a
@@ -48,7 +49,7 @@ function Intro() {
           <Breadcrumb.Item href="https://www.linkedin.com/in/fengyuli">
             [LinkedIn]
           </Breadcrumb.Item>
-          <Breadcrumb.Item active>[CV]</Breadcrumb.Item>
+          <Breadcrumb.Item active>[CV under construction]</Breadcrumb.Item>
         </Breadcrumb>
       </Row>
     </Container>

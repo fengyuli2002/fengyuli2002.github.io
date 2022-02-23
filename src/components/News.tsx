@@ -9,7 +9,7 @@ function News() {
       </h2>
       <ul>
         <li>
-          <p>Jan 2022 : I completed my first Kaggle competition.</p>
+          <p>Jan 2022 : I'm officially a CIS student!</p>
         </li>
         <li>
           <p>

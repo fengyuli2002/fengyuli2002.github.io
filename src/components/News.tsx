@@ -1,4 +1,5 @@
-import "./News.css"
+import "./News.css";
+import { Container } from "react-bootstrap";
 
 type news = {
   content: string;
@@ -24,7 +25,7 @@ const content: news[] = [
   {
     content: "I completed my first Kaggle competition.",
     date: newDate(2022, 1),
-  }
+  },
 ];
 
 function newDate(year: number, month: number) {
@@ -56,9 +57,9 @@ function NewsItem(props: news) {
     <div>
       {props.link ? (
         <p>
-          <a className="news-link" href={props.link}>{`${formatDate(props.date)}  :  ${
-            props.content
-          }`}</a>
+          <a className="news-link" href={props.link}>{`${formatDate(
+            props.date
+          )}  :  ${props.content}`}</a>
         </p>
       ) : (
         <p>{`${formatDate(props.date)}  :  ${props.content}`}</p>
@@ -76,20 +77,22 @@ function News() {
     .slice(0, 7);
 
   return (
-    <div>
-      <h1>News</h1>
-      <ul>
-        {sorted_content.map((item) => (
-          <li>
-            <NewsItem
-              content={item.content}
-              date={item.date}
-              link={item.link}
-            ></NewsItem>
-          </li>
-        ))}
-      </ul>
-    </div>
+      <Container fluid>
+        <h2>
+          <strong>News</strong>
+        </h2>
+        <ul>
+          {sorted_content.map((item) => (
+            <li>
+              <NewsItem
+                content={item.content}
+                date={item.date}
+                link={item.link}
+              ></NewsItem>
+            </li>
+          ))}
+        </ul>
+      </Container>
   );
 }
 

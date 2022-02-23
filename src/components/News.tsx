@@ -1,4 +1,4 @@
-import "./News.css";
+import "./news.css";
 import { Container } from "react-bootstrap";
 
 function News() {

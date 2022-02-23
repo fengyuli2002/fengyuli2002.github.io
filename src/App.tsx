@@ -1,5 +1,5 @@
 import Intro from "./components/intro";
-import News from "./components/News";
+import News from "./components/news";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 

@@ -16,9 +16,9 @@ function Intro() {
             I'm a first-year undergraduate student at Cornell University
             majoring in computer science and mathematics. My current semester
             coursework includes machine learning, analysis of algorithms,
-            probability models, and functional programming. I'm strongly
-            interested in machine learning systems and deep learning. I'm
-            actively looking for research opportunities in these fields.
+            probability models, and functional programming. This semester I'm
+            working under the research group led by Prof. Claire Cardie. Details
+            about my research will be updated soon.
           </p>
           <p>
             In my spare time, I build softwares on various tech stacks in a

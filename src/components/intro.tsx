@@ -14,11 +14,12 @@ function Intro() {
           </h1>
           <p>
             I'm a first-year undergraduate student at Cornell University
-            majoring in computer science and mathematics. My coursework focus on
+            studying computer science and mathematics. My coursework focus on
             various aspects of machine learning models and systems and their
             application on natural language processing. This semester I'm
             working under the Cornell NLP group supervised by Prof. Claire
-            Cardie. Details about my research will be updated soon.
+            Cardie. Details about my research will be updated soon. I'm also
+            part of CS 2110's course staff.
           </p>
           <p>
             In my spare time, I build softwares on various tech stacks in a

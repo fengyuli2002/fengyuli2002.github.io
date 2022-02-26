@@ -34,8 +34,7 @@ function Intro() {
       <Row>
         <p>
           <em>
-            My office hours for CS 2110 is every Monday from 16:30 to 18:30 at
-            Rhodes 405.
+            I'm looking for a summer research in the field of machine learning.
           </em>
         </p>
         <Breadcrumb>

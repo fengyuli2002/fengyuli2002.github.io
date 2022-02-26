@@ -17,9 +17,12 @@ function Intro() {
             studying computer science and mathematics. My coursework focuses on
             various aspects of machine learning models and systems and their
             application on natural language processing. This semester I'm
-            working under the Cornell NLP group supervised by Prof. Claire
-            Cardie. Details about my research will be updated soon. I'm also
-            part of CS 2110's course staff.
+            working under the Cornell NLP group supervised by{" "}
+            <a href="https://www.cs.cornell.edu/home/cardie/">
+              Prof. Claire Cardie
+            </a>
+            . Details about my research will be updated soon. I'm also part of
+            CS 2110's course staff.
           </p>
           <p>
             In my spare time, I build softwares on various tech stacks in a

@@ -9,7 +9,10 @@ function News() {
       </h2>
       <ul>
         <li>
-          <p>Jan 2022 : I'm officially a CIS student!</p>
+          <p>
+            Feb 2022 : I'll be working under the Cornell NLP group for the rest
+            of this semester.
+          </p>
         </li>
         <li>
           <p>
@@ -22,7 +25,7 @@ function News() {
         </li>
         <li>
           <p>
-            Aug 2021 : I began my undergraduate studies at Cornell University!
+            Aug 2021 : I began my undergraduate studies at Cornell University.
           </p>
         </li>
       </ul>

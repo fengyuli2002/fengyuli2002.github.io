@@ -33,6 +33,7 @@ function Intro() {
         </Col>
         <Col xs={6} md={4}>
           <img src={photo} alt="" className="photo" />
+          <p className="photo">Tree hole and me, 2022</p>
         </Col>
       </Row>
       <Row>

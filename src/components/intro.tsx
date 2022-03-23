@@ -54,7 +54,7 @@ function Intro() {
           <Breadcrumb.Item href="https://www.linkedin.com/in/fengyuli">
             [LinkedIn]
           </Breadcrumb.Item>
-          <Breadcrumb.Item href="https://www.linkedin.com/in/fengyuli">
+          <Breadcrumb.Item href={cv}>
             [CV]
           </Breadcrumb.Item>
         </Breadcrumb>

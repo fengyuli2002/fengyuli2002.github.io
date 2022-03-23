@@ -3,6 +3,7 @@ import { Breadcrumb, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./intro.css";
 import photo from "../public/photo.jpg";
+import cv from "../public/cv.pdf";
 
 function Intro() {
   return (
@@ -53,7 +54,9 @@ function Intro() {
           <Breadcrumb.Item href="https://www.linkedin.com/in/fengyuli">
             [LinkedIn]
           </Breadcrumb.Item>
-          <Breadcrumb.Item active>[CV under construction]</Breadcrumb.Item>
+          <Breadcrumb.Item href="https://www.linkedin.com/in/fengyuli">
+            [CV]
+          </Breadcrumb.Item>
         </Breadcrumb>
       </Row>
     </Container>

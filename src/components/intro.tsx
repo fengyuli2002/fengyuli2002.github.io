@@ -11,7 +11,7 @@ function Intro() {
       <Row>
         <Col xs={12} md={8}>
           <h1>
-            <strong>Li Fengyu</strong>
+            <strong>Fengyu Li</strong>
           </h1>
           <p>
             I'm a first-year undergraduate student at Cornell University

@@ -27,7 +27,7 @@ function Intro() {
           </p>
           <p>
             In my spare time, I build softwares on various tech stacks in a
-            student-led project team and on my own. I sometimes participate in
+            student-led project team and on my own. I occasionally participate in
             Kaggle competitions. I'm also a piano enthusiast. I mostly play the
             pieces by Chopin.
           </p>
@@ -40,7 +40,7 @@ function Intro() {
       <Row>
         <p>
           <em>
-            I'm looking for a summer research in the field of machine learning.
+            I'm looking for a research opportunity in machine learning for fall 2022.
           </em>
         </p>
         <Breadcrumb>

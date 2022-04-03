@@ -16,20 +16,16 @@ function Intro() {
           <p>
             I'm a first-year undergraduate student at Cornell University
             studying computer science and mathematics. My coursework focuses on
-            various aspects of machine learning models and systems. This semester I'm
-            working under the Cornell NLP group supervised by{" "}
+            various aspects of machine learning models and systems. This
+            semester I'm working under the Cornell NLP group supervised by{" "}
             <a href="https://www.cs.cornell.edu/home/cardie/">
               Prof. Claire Cardie
             </a>
-            . Details about my research will be updated soon. I'm also part of
-            CS 2110's course staff.
+            . I will be advised by{" "}
+            <a href="https://sdean.website/">Prof. Sarah Dean</a> on a project
+            that studies recommender systems in the upcoming summer.
           </p>
-          <p>
-            In my spare time, I build softwares on various tech stacks in a
-            student-led project team and on my own. I occasionally participate in
-            Kaggle competitions. I'm also a piano enthusiast. I mostly play the
-            pieces by Chopin.
-          </p>
+          <p>I'm a teaching assistant of CS 2110 for Spring 2022.</p>
         </Col>
         <Col xs={6} md={4}>
           <img src={photo} alt="" className="photo" />
@@ -39,7 +35,8 @@ function Intro() {
       <Row>
         <p>
           <em>
-            I'm looking for a research opportunity in machine learning for fall 2022.
+            I'm looking for a research opportunity in machine learning for fall
+            2022.
           </em>
         </p>
         <Breadcrumb>
@@ -53,9 +50,7 @@ function Intro() {
           <Breadcrumb.Item href="https://www.linkedin.com/in/fengyuli">
             [LinkedIn]
           </Breadcrumb.Item>
-          <Breadcrumb.Item href={cv}>
-            [CV]
-          </Breadcrumb.Item>
+          <Breadcrumb.Item href={cv}>[CV]</Breadcrumb.Item>
         </Breadcrumb>
       </Row>
     </Container>

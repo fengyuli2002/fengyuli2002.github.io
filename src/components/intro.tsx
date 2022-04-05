@@ -21,9 +21,9 @@ function Intro() {
             <a href="https://www.cs.cornell.edu/home/cardie/">
               Prof. Claire Cardie
             </a>
-            . I will be advised by{" "}
+            {/* . I will be advised by{" "}
             <a href="https://sdean.website/">Prof. Sarah Dean</a> on a project
-            that studies recommender systems in the upcoming summer.
+            that studies recommender systems in the upcoming summer. */}
           </p>
           <p>I'm a teaching assistant of CS 2110 for Spring 2022.</p>
         </Col>

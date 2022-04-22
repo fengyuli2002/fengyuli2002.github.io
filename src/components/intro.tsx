@@ -16,14 +16,11 @@ function Intro() {
           <p>
             I'm a first-year undergraduate student at Cornell University
             studying computer science and mathematics. My coursework focuses on
-            various aspects of machine learning models and systems. This
-            semester I'm working under the Cornell NLP group supervised by{" "}
-            <a href="https://www.cs.cornell.edu/home/cardie/">
-              Prof. Claire Cardie
-            </a>
-            {/* . I will be advised by{" "}
+            various aspects of machine learning models and systems. This summer,
+            I will be advised by{" "}
             <a href="https://sdean.website/">Prof. Sarah Dean</a> on a project
-            that studies recommender systems in the upcoming summer. */}
+            that studies the performance of recommender systems when there's
+            bias in the dataset, e.g. under NMAR condition.
           </p>
           <p>I'm a teaching assistant of CS 2110 for Spring 2022.</p>
         </Col>

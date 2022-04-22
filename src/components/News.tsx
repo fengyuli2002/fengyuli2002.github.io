@@ -10,8 +10,8 @@ function News() {
       <ul>
         <li>
           <p>
-            Feb 2022 : I'll be working under the Cornell NLP group for the rest
-            of this semester.
+            Feb 2022 : I'll be assisting the Cornell NLP group on their
+            experiments for the rest of this semester.
           </p>
         </li>
         <li>

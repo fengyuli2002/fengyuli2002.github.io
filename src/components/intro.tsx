@@ -3,7 +3,7 @@ import { Breadcrumb, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./intro.css";
 import photo from "../public/photo.jpg";
-import cv from "../public/cv.pdf";
+import cv from "../public/cv/aux/main.pdf";
 
 function Intro() {
   return (

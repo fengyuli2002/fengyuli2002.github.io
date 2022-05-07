@@ -1,7 +1,7 @@
-\documentclass{main} % Use the custom main.cls style
-\usepackage[margin=0.7in]{geometry} % Document margins
-\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
-\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\documentclass{main}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{enumitem}
+\usepackage{multicol}
 
 \name{FENGYU LI}
 \address{\href{mailto:fl334@cornell.edu}{\color{black}fl334@cornell.edu} \\ \href{https://fengyuli.com/}{\color{black}fengyuli.com}}
@@ -13,91 +13,62 @@
     B.A. in Computer Science and Mathematics, GPA: 4.15 / 4.3
 \end{rSection}
 
-\begin{rSection}{SKILLS}
-    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-        Languages   & Javascript, Python, HTML, CSS, PostgreSQL, GraphQL                                    \\
-        Frameworks  & React, Redux, Node.js, Express, Django, Mocha                                         \\
-        Tools       & Git, Docker, TravisCI, Kubernetes, AWS                                                \\
-        \\
-        Soft Skills & Time Management, Teamwork, Communication, Problem Solving, Leadership, Accountability
-        \\
-    \end{tabular}\\
+\begin{rSection}{Publications}
+
 \end{rSection}
 
-\begin{rSection}{PROJECTS}
-    \vspace{-1.25em}
-    \item \textbf{Project 1} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+\begin{rSection}{Research Experience}
+    \vspace{-0.75em}
+    \item \textbf{Sampling Bias in Recommender Datasets,} {advised by Prof. Sarah Dean at Cornell University}
     \begin{itemize}
         \itemsep -3pt {}
-        \item Created a XYZ feature to accomplish ABC.
-        \item Retrieved data from XYZ to for ABC.
-        \item Implemented XYZ library for ABC.
-        \item Utilized XYZ that increased A by B\%.
+        \item In progress.
     \end{itemize}
-    \item \textbf{Project 2} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
+    \item \textbf{Document-level Information Extraction} {advised by Prof. Claire Cardie at Cornell NLP Group}
     \begin{itemize}
         \itemsep -3pt {}
-        \item Created a XYZ feature to accomplish ABC.
-        \item Retrieved data from XYZ to for ABC.
-        \item Implemented XYZ library for ABC.
-        \item Utilized XYZ that increased A by B\%.
-    \end{itemize}
-    \item \textbf{Project 3} {Language 1, Framework 1, Database, Language 2, Framework 2, DevOps Tooling} \hfill \href{www.github.com/GITHUBURL}{GitHub}
-    \begin{itemize}
-        \itemsep -3pt {}
-        \item Created a XYZ feature to accomplish ABC.
-        \item Retrieved data from XYZ to for ABC.
-        \item Implemented XYZ library for ABC.
-        \item Utilized XYZ that increased A by B\%.
+        \item Familiarized myself with the recent progress in IE and the workflow in a collaborative research group.
+        \item Reproduced results of DyGIE++, a pretrained transformer model, on multiple datasets.
     \end{itemize}
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Extra-Curricular Activities}
-    \begin{itemize}
-        \item 	Sample bullet point.
-        \item	Sample bullet point.
+\begin{rSection}{Awards \& Recognitions}
+    \begin{itemize}[noitemsep]
+        \item Cornell CIS Summer Research Assistant Stipend
+        \item Dean's List, Cornell University
+        \item Best Project Award, Cornell Honors Data Structures Course
     \end{itemize}
-
-
 \end{rSection}
 
-%------------------------
-% Use this more detailed section if you have Relevant work experience
-% keep your resume to 1 page, if you need to remove a project to display relevant experience
-% that is okay
-% ----------------------------
-% \begin{rSection}{EXPERIENCE}
-
-% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
-% Company Name \hfill \textit{San Francisco, CA}
-%  \begin{itemize}
-%     \itemsep -3pt {} 
-%      \item Achieved X\% growth for XYZ using A, B, and C skills.
-%      \item Led XYZ which led to X\% of improvement in ABC
-%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
-%  \end{itemize}
-
-% \textbf{Role Name} \hfill Jan 2017 - Jan 2019\\
-% Company Name \hfill \textit{San Francisco, CA}
-%  \begin{itemize}
-%     \itemsep -3pt {} 
-%      \item Achieved X\% growth for XYZ using A, B, and C skills.
-%      \item Led XYZ which led to X\% of improvement in ABC
-%     \item Developed XYZ that did A, B, and C using X, Y, and Z. 
-%  \end{itemize}
-
-% \end{rSection} 
-
-\begin{rSection}{Work History}
-    \vspace{-1.25em}
-    \item \textbf{Job Title} {Company} \hfill Month Year - Month Year
-    \item \textbf{Job Title} {Company} \hfill Month Year - Month Year
-    \item \textbf{Job Title} {Company} \hfill Month Year - Month Year
+\begin{rSection}{Teaching}
+    \begin{itemize}[noitemsep]
+        \item Teaching Assistant, CS 4780 Machine Learning for Intelligent Systems \hfill{Fall 2022}
+        \item 	Teaching Assistant, CS 2110 Object-Oriented Programming and Data Structures \hfill{Spring 2022}
+    \end{itemize}
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
-
-
+\begin{rSection}{Coursework}
+    \vspace{-0.75em}
+    \begin{multicols}{2}
+        \textbf{Undergraduate Upper-level Courses}
+        \begin{itemize}[noitemsep]
+            \item Machine Learning
+            \item Large-scale ML Systems
+            \item Honors Data Structures
+            \item Analysis of Algorithms
+            \item Reinforcement Learning
+            \item Honors Advanced Linear Algebra
+        \end{itemize}
+        \columnbreak
+        \textbf{Graduate/PhD-level Courses}
+        \begin{itemize}[noitemsep]
+            \item Machine Learning in Feedback Systems
+            \item Advanced Machine Learning Systems*
+            \item Theoretical Reinforcement Learning*
+        \end{itemize}
+    \end{multicols}
+    \vspace{-1em}
+    * denotes courses planned for the next semester.
+\end{rSection}
 
 \end{document}

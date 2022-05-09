@@ -2,6 +2,15 @@
 \usepackage[margin=0.7in]{geometry}
 \usepackage{enumitem}
 \usepackage{multicol}
+\usepackage{xcolor}
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+\newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\scriptsize\color{gray}Last updated on #1}}
 
 \name{FENGYU LI}
 \address{\href{mailto:fl334@cornell.edu}{\color{black}fl334@cornell.edu} \\ \href{https://fengyuli.com/}{\color{black}fengyuli.com}}
@@ -67,22 +76,22 @@
         \begin{itemize}[noitemsep]
             \item Machine Learning
             \item Large-scale ML Systems
-            \item Honors Data Structures
+            \item Honors OOP \& Data Structures
             \item Analysis of Algorithms
             \item Reinforcement Learning
-            \item Honors Advanced Linear Algebra
+            \item Honors Mathematics Sequence (In Progress) {\color{black}\footnote{Honors advanced linear algebra, abstract algebra, calculus, and real analysis; as well as probability and stochastic processes.}}
         \end{itemize}
         \columnbreak
         \textbf{Graduate/PhD-level Courses}
         \vspace{-0.2em}
         \begin{itemize}[noitemsep]
             \item Machine Learning in Feedback Systems
-            \item Advanced Machine Learning Systems*
-            \item Theoretical Reinforcement Learning*
+            \item Computer Vision
+            \item Advanced Machine Learning Systems (Planned)
+            \item Theoretical Reinforcement Learning (Planned)
         \end{itemize}
     \end{multicols}
     \vspace{-1.4em}
-    * denotes courses planned for the next semester.
 \end{rSection}
 
 \end{document}

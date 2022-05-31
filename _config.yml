@@ -80,8 +80,8 @@ analytics:
 author:
   name: "Fengyu Li"
   avatar: "profile.png"
-  bio: "Second-year computer science and mathematics undergraduate at Cornell University."
-  location: "Ithaca, NY"
+  bio: "CS & Math 25' at Cornell University."
+  location:
   employer:
   googlescholar: "http://yourfullgooglescholarurl.com"
   email: "fl334@cornell.edu"

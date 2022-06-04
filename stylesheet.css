@@ -80,33 +80,33 @@ th,
 tr,
 p,
 a {
-  font-family: 'CMU Sans Serif','Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMUSansSerif','Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px
 }
 
 strong {
-  font-family: 'CMU Sans Serif', 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMUSansSerif', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
 }
 
 heading {
-  font-family: 'CMU Sans Serif', 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMUSansSerif', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 22px;
 }
 
 papertitle {
-  font-family: 'CMU Sans Serif', 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMUSansSerif', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
   font-weight: 700
 }
 
 name {
-  font-family: 'CMU Sans Serif', 'Lato', Verdana, Helvetica, sans-serif;
+  font-family: 'CMUSansSerif', 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
   font-weight: 700
 }
 
-.one {
+.one, .side-square-image {
   width: 160px;
   height: 160px;
   position: relative;
